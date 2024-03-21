@@ -1,0 +1,17 @@
+@use "sass:map";
+@import "./base/reset";
+@import "./base/fonts";
+@import "./containers";
+// Variables
+@import "./variables/colors";
+@import "./buttons/primary-btn";
+@import "./carousel/swiper-bundle.min";
+@import "./partials/section-title";
+// Layout
+@import "./layout/header";
+@import "./layout/footer";
+// Pages
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/contact";
+
